@@ -1,0 +1,280 @@
+body,
+html {
+  background-color: #f2f2f2 !important;
+}
+.ClassPost-container {
+  width: 100%;
+  height: 100%;
+}
+.ClassPost-container .swiperBox {
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+.ClassPost-container .swiperBox-lides {
+  width: 100%;
+  line-height: 40px;
+}
+.ClassPost-container .swiperBox-lides .swiper-slide {
+  width: auto !important;
+}
+.ClassPost-container .swiperBox-lides .title {
+  padding: 0 8px 0 0;
+}
+.ClassPost-container .swiperBox-lides .minBox {
+  width: 10px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 35px;
+}
+.ClassPost-container .swiperBox-lides .minBox_on {
+  width: 10px;
+  height: 4px;
+  background-color: #ffb500;
+  position: absolute;
+  bottom: 0;
+  right: 35px;
+}
+.ClassPost-container .swiperBox-lides .title_on {
+  color: #ffb500;
+}
+.ClassPost-container .ranking {
+  background-color: white;
+}
+.ClassPost-container .ranking-header {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ClassPost-container .ranking-header .box {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.ClassPost-container .ranking-header .box-on {
+  color: #ffb500;
+  border-bottom: 1px solid #ffb500;
+}
+.ClassPost-container .ranking-content {
+  height: 250px;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.ClassPost-container .ranking-content-box {
+  width: 40%;
+  height: 25px;
+  padding: 10px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.ClassPost-container .ranking-content .text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 90%;
+}
+.ClassPost-container .ranking-content .number {
+  padding: 5px;
+  background-color: #f2f2f2;
+  color: #c3c3c3;
+  border-radius: 50%;
+}
+.ClassPost-container .ranking-content .top1Number {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  color: white;
+}
+.ClassPost-container .ranking-content .top2Number {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  color: white;
+}
+.ClassPost-container .ranking-content .top3Number {
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  color: white;
+}
+.ClassPost-container .ranking-content .top1Icon {
+  background: url("../images/top1.png") no-repeat 50%;
+  background-size: 25px;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  padding-left: 2px;
+  position: relative;
+}
+.ClassPost-container .ranking-content .top2Icon {
+  background: url("../images/top2.png") no-repeat 50%;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  padding-left: 2px;
+  position: relative;
+}
+.ClassPost-container .ranking-content .top3Icon {
+  background: url("../images/top3.png") no-repeat 50%;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  padding-left: 2px;
+  position: relative;
+}
+.ClassPost-container .content {
+  background-color: white;
+}
+.ClassPost-container .content-box {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+.ClassPost-container .content-box .logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.ClassPost-container .content-box .nameBox {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 2;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+.ClassPost-container .content-box .nameBox .name {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+}
+.ClassPost-container .content-box .nameBox .nameText {
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ClassPost-container .content-box .nameBox .times {
+  color: #b4b4b4;
+}
+.ClassPost-container .content-box .nameBox .vIcon {
+  background: url("../images/v.png") no-repeat 50%;
+  background-size: 15px;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+.ClassPost-container .content-box .nameBox .vipIcon {
+  background: url("../images/vip.png") no-repeat 50%;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  padding-left: 2px;
+}
+.ClassPost-container .postsBox {
+  padding: 10px 10px 0 10px;
+}
+.ClassPost-container .postsBox-title {
+  font-weight: bold;
+  color: black;
+  font-size: 120%;
+  padding: 0 0 10px 0;
+}
+.ClassPost-container .postsBox-text {
+  color: #707070;
+  font-size: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.ClassPost-container .postsBox-imgBody {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+}
+.ClassPost-container .postsBox-imgBody .hideBox {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(156, 156, 156, 0.59);
+}
+.ClassPost-container .postsBox-imgBody .handIcon {
+  background: url("../images/hand.png") no-repeat 50%;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  display: inline-block;
+}
+.ClassPost-container .postsBox-imgBody .imgBox {
+  position: relative;
+}
+.ClassPost-container .postsBox-imgBody .imgP5 {
+  padding: 5px 5px 0 0;
+}
+.ClassPost-container .postsBox-imgBody img {
+  width: 100%;
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.ClassPost-container .postsBox-imgBody .vsBox {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+.ClassPost-container .postFooter {
+  padding: 10px;
+  text-align: right;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #f1f2f3;
+}
+.ClassPost-container .postFooter .commentIcon {
+  background: url("../images/comment.png") no-repeat 50%;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+.ClassPost-container .postFooter .text {
+  font-size: 80%;
+  color: #cfcfcf;
+}

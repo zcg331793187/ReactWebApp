@@ -19,9 +19,9 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Header router={this.props} />
+                {/*<Header router={this.props} />*/}
                 {this.props.children}
-                <Footer router={this.props}/>
+                {/*<Footer router={this.props}/>*/}
             </div>
         )
     }

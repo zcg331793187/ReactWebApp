@@ -35,23 +35,11 @@ class Footer extends Component {
             <div className="Footer-container">
                 <div className="content">
                     <div className="item"><div className="homeIcon"></div><div className="text"><NavLink to="/" onlyActiveOnIndex>首页</NavLink></div></div>
-                    <div className="item"><div className="homeIcon"></div><div className="text"><NavLink to="/MyOrder">分类</NavLink></div></div>
+                    <div className="item"><div className="homeIcon"></div><div className="text"><NavLink to="/ClassPost">分类</NavLink></div></div>
                     <div className="item"><div className="homeIcon"></div><div className="text"><NavLink to="/Find">动态</NavLink></div></div>
                     <div className="item"><div className="homeIcon"></div><div className="text"> <NavLink to="/My">我的</NavLink></div></div>
                 </div>
-
-
             </div>
-
-
-            /*
-           <div>
-               <NavLink to="/" onlyActiveOnIndex>Home</NavLink>
-               <NavLink to="/My">My</NavLink>
-               <NavLink to="/MyOrder">MyOrder</NavLink>
-               <NavLink to="/Find">Find</NavLink>
-           </div>
-*/
 
     );
     }
