@@ -1,0 +1,224 @@
+.display-flex(){
+  display : -moz-box;
+  display : -ms-flexbox;
+  display : flex
+}
+
+.body-html-bg(@color){
+  body,
+  html {
+    background-color: @color !important;
+  }
+}
+
+
+.flex-(@size){
+
+  -ms-flex:  @size;
+
+  -webkit-box-flex: @size;
+  -webkit-flex: @size;
+  flex: @size;
+}
+
+.default-background-imgaes(){
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Page-icon(@size){
+  background-repeat: no-repeat;
+  background-size: @size*1px @size*1px;
+  height: @size*1px;
+  width: @size*1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.background-size(@size){
+  -o-background-size: @size @size;
+  -webkit-background-size: @size @size;
+  -moz-background-size: @size @size;
+  background-size: @size @size;
+}
+//外边距rem换算
+.marginTop(@slef) {
+  margin-top: @slef*1px;
+}
+
+.marginRight(@slef) {
+  margin-right: @slef*1px;
+}
+
+.marginBottom(@slef) {
+  margin-bottom: @slef*1px;
+}
+
+.marginLeft(@slef) {
+  margin-left: @slef*1px;
+}
+
+.margin2(@vertical, @horizontal) {
+  margin: @vertical*1px @horizontal*1px;
+}
+
+.margin3(@top, @right, @bottom) {
+  margin: @top*1px @right*1px @bottom*1px 0;
+}
+
+.margin4(@top, @right, @bottom, @left) {
+  margin: @top*1px @right*1px @bottom*1px @left*1px;
+}
+
+
+//内边距rem换算
+.paddingTop(@slef) {
+  padding-top: @slef*1px;
+}
+
+.paddingRight(@slef) {
+  padding-right: @slef*1px;
+}
+
+.paddingBottom(@slef) {
+  padding-bottom: @slef*1px;
+}
+
+.paddingLeft(@slef) {
+  padding-left: @slef*1px;
+}
+
+.padding(@four) {
+  padding: @four*1px
+}
+
+.padding2(@vertical, @horizontal) {
+  padding: @vertical*1px @horizontal*1px;
+}
+
+.padding3(@top, @right, @bottom) {
+  padding: @top*1px @right*1px @bottom*1px 0;
+}
+
+.padding4(@top, @right, @bottom, @left) {
+  padding: @top*1px @right*1px @bottom*1px @left*1px;
+}
+
+
+
+.backgroundSize(@width, @height) {
+  -webkit-background-size: @width*1px @height*1px;
+  background-size: @width*1rem @height*1rem;
+}
+.top(@slef) {
+  top: @slef*1px;
+}
+
+.left(@slef) {
+  left: @slef*1px;
+}
+
+.bottom(@slef) {
+  bottom: @slef*1px;
+}
+
+.right(@slef) {
+  right: @slef*1px;
+}
+
+.topP(@slef, @par) {
+  top: @slef/@par*100%;
+}
+
+.leftP(@slef, @par) {
+  left: @slef/@par*100%;
+}
+
+.bottomP(@slef, @par) {
+  bottom: @slef/@par*100%;
+}
+
+.rightP(@slef, @par) {
+  right: @slef/@par*100%;
+}
+
+//边框top/left/right/bottom宽度定义
+.borderTop(@slef) {
+  border-top-width: @slef*1px;
+}
+
+.borderRight(@slef) {
+  border-right-width: @slef*1px;
+}
+
+.border(@slef) {
+  border-width: @slef*1px;
+}
+
+.border2(@a, @b) {
+  border-width: @a*1px @b*1px;
+}
+
+;
+//border-radius
+.borderRadius(@slef) {
+  border-radius: @slef*1px;
+}
+
+.borderRadiusTr(@slef) {
+  border-top-right-radius: @slef*1px;
+}
+
+.borderRadiusBr(@slef) {
+  border-bottom-right-radius: @slef*1px;
+}
+
+.borderRadiusTl(@slef) {
+  border-top-left-radius: @slef*1px;
+}
+
+.borderRadiusBl(@slef) {
+  border-bottom-left-radius: @slef*1px;
+}
+
+.borderFull(@slef, @style, @color) {
+  border: @slef*1px @style @color;
+}
+
+.borderWidth3(@top, @right, @bottom) {
+  border-width: @top*1px @right*1px @bottom*1px;
+}
+
+.borderLeftWidth(@left) {
+  border-left-width: @left*1px;
+}
+
+.borderWidthTop(@top) {
+  border-top-width: @top*1px;
+}
+
+//位移
+.translate(@slef1, @slef2, @slef3) {
+  -webkit-transform: translate3d(@slef1*1px, @slef2*1px, @slef3*1px);
+  transform: translate3d(@slef1*1px, @slef2*1px, @slef3*1px);
+}
+
+//多行省略号
+.text-elipsis-lines(@lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @lines;
+  -webkit-box-orient: vertical;
+}
+
+.verticalAlign(@px){
+  vertical-align: @px*1px;
+}
+
+.text-elli() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@baseColor:#ffb500;
+@bodyColor:#f2f2f2;

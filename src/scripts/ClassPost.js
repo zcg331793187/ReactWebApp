@@ -8,7 +8,7 @@ import '../styles/Body.css';
 // import BankModel from './components/BankModel'
 // const alert = Modal.alert;
 
-class MyOrder extends Component {
+class class extends Component {
 
     constructor(props) {
         super(props);
