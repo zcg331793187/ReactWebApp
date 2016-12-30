@@ -64,18 +64,3 @@ td,th {
 	line-height: 0;
 	height:0;
 }
-.loading_more{
-	display: block;
-	height: 1.5em;
-	width: 100%;
-}
-.loading_more:before {
-	display: inline-block; vertical-align: text-bottom;
-	content: ' '; height: 16px; width: 16px; margin-right: 6px;
-	background: url(../images/loading_more.gif) no-repeat center;
-	-webkit-background-size: contain;
-	background-size: contain;
-} 
-.loading_more:after {
-	content: '加载更多';	
-}
